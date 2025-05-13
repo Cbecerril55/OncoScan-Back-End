@@ -1,0 +1,41 @@
+# Entorno virtual
+venv/
+.Venv/
+env/
+ENV/
+
+# Archivos temporales y caché
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# Configuraciones de IDE
+.vscode/
+.idea/
+*.swp
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones locales
+*.env
+.env
+
+# Archivos de logs
+*.log
+
+# Archivos de Docker (si los usas en el futuro)
+docker-compose.yml
+Dockerfile
+
+# Archivos de pruebas y cobertura
+*.coverage
+coverage/
+htmlcov/
+
+# Configuraciones de FastAPI
+instance/
